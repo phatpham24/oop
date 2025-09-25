@@ -37,7 +37,6 @@ public class RandomWalk {
             StdDraw.show();
             StdDraw.pause(100);
 
-
             if (stepCount == stepLength) {
                 stepCount = 0;
                 dirIndex = (dirIndex + 1) % 4;
